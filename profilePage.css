@@ -1,0 +1,220 @@
+body{
+    /* display:flex;
+    align-items:center; */
+    margin: 0;
+}
+
+.pageContent{
+    /* margin: auto;
+    margin-top: 50px; */
+    display: flex;
+}
+
+.navBar{
+    padding-top: 40px;
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    /* top: 50%; */
+}
+
+#signOut{
+    margin-left: 700px;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    margin-top:-15px;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+    padding-left: 80px;
+    font-size: 20px;
+}
+
+#profile{
+    font-size: 30px;
+    margin-left: -50px;
+}
+
+.pageContent{
+    display:flex;
+}
+
+.userCard{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.topHalf{
+    background-color:cornflowerblue;
+    outline: 3px solid cornflowerblue;
+    height: 100px;
+    width: 600px;
+}
+
+#editProfile{
+    color: cornflowerblue;
+    margin-left: -80px;
+    font-size: 15px;
+}
+
+.profileIcon{
+    width:100px;
+    border:3px solid grey;
+    border-radius: 500px;
+    padding-top:4px;
+    padding-right: 4px;
+    padding-left: 4px;
+    background: white;
+
+    position: relative;
+    bottom: -50px;
+    right: -20px;
+    /* border: 3px solid grey; */
+}
+
+.bottomHalf{
+    background-color:white;
+    outline: 3px solid grey;
+    height: 250px;
+    width: 600px;
+    margin-top:5px;
+    padding-top: 80px;
+}
+
+.bottomContainer{
+    margin-left: 50px;
+}
+
+.name{
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 15px;
+}
+
+.content{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 15px;
+}
+
+.location{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 15px;
+}
+
+
+.editProfile{
+    display: flex;
+}
+
+.gearIcon{
+    margin-right: 10px;
+}
+
+a{
+    color: cornflowerblue;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.educationCard{
+    height: 100px;
+    width: 600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 200px;
+    padding-top:50px;
+}
+
+.educationBar{
+    background-color: black;
+    width: 600px;
+    height: 50px;
+    color: white;
+    padding-top:20px;
+    font-size: 25px;
+    outline: 3px solid grey;
+    /* padding-left: 30px; */
+}
+
+h1{
+    font-size: 30px;
+    padding-left: 40px;
+    margin-top: 0px;
+}
+
+.educationContent{
+    background-color: white;
+    outline: 3px solid grey;
+    height: 200px;
+    width: 560px;
+    margin-top:5px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.requestsBar{
+    background-color: black;
+    width: 400px;
+    height: 50px;
+    color: white;
+    padding-top:20px;
+    font-size: 25px;
+    outline: 3px solid grey;
+    /* padding-left: 30px; */
+}
+
+.connectionRequests{
+    padding-left: 100px;
+    padding-top:40px;
+}
+
+.requestsContent{
+    background-color: white;
+    outline: 3px solid grey;
+    height: 300px;
+    width: 360px;
+    margin-top:5px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+.requestPerson{
+    display:flex;
+    justify-content:space-evenly
+}
+
+.yourConnections{
+    padding-left: 100px;
+    padding-top:40px;
+}
+
+#view{
+    padding-left: 100px;
+    padding-top:40px;
+}
+
+.bottom{
+    background-color: white;
+    outline: 3px solid grey;
+    height: 40px;
+    width: 360px;
+    margin-top:5px;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
